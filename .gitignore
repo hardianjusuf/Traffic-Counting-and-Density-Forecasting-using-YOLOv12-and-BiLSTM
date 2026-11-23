@@ -1,23 +1,68 @@
-# Virtual Environment
+# PYTHON ENVIRONMENT & CACHE
 .venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
 
-# YOLO Dataset
-/01_Datasets/New_YOLO_Datasets/
-
-# Tools
+#DEVELOPMENT TOOLS
 .remote-video-preview-cache/
+.vscode/
+.idea/
 
-# Model Weights
-*.pt
+
+# MODEL WEIGHTS
+# Izinkan best.pt, abaikan last.pt dan bobot lainnya
+last.pt
 *.pth
+yolov*.pt
+yolo[0-9]*.pt
 
-# Video CCTV
+
+# VIDEO FILES
 *.mp4
 
-# all results directory
-/02_Model_Comparison/hasil_train_yolo
-/03_Vehicle_Detection/evaluation
-/03_Vehicle_Detection/runs
-/04_Vehicle_Counting/video_evaluasi
-/05_Traffic_Analysis/bilstm-model
-/05_Traffic_Analysis/percobaan-bi-lstm
+
+# YOLO DATASETS
+/01_Datasets/New_YOLO_Datasets/
+
+
+# MODEL COMPARISON - TRAINING RESULTS
+# Abaikan seluruh hasil training
+/02_Model_Comparison/hasil_train_yolo/**
+
+# Izinkan Git menelusuri subfolder
+!/02_Model_Comparison/hasil_train_yolo/**/
+
+# File hasil training yang diizinkan
+!/02_Model_Comparison/hasil_train_yolo/**/best.pt
+!/02_Model_Comparison/hasil_train_yolo/**/results.csv
+!/02_Model_Comparison/hasil_train_yolo/**/results.png
+!/02_Model_Comparison/hasil_train_yolo/**/args.yaml
+
+
+# VEHICLE DETECTION - TRAINING & EVALUATION
+# Abaikan seluruh hasil runs
+/03_Vehicle_Detection/runs/**
+
+# Izinkan Git menelusuri subfolder
+!/03_Vehicle_Detection/runs/**/
+
+# File hasil yang diizinkan
+!/03_Vehicle_Detection/runs/**/best.pt
+!/03_Vehicle_Detection/runs/**/results.csv
+!/03_Vehicle_Detection/runs/**/results.png
+!/03_Vehicle_Detection/runs/**/args.yaml
+
+# Abaikan folder evaluation
+/03_Vehicle_Detection/evaluation/
+
+
+# VEHICLE COUNTING
+/04_Vehicle_Counting/video_evaluasi/
+
+
+# TRAFFIC ANALYSIS
+/05_Traffic_Analysis/bilstm-model/
+/05_Traffic_Analysis/percobaan-bi-lstm/
