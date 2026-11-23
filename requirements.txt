@@ -1,0 +1,32 @@
+# YOLO object detection and training
+ultralytics
+
+# PyTorch (CPU/CUDA wheel selection depends on the installation method)
+torch
+torchvision
+
+# CCTV processing, ROI polygons, counting, and data preparation
+opencv-python
+numpy
+pandas
+scipy
+Pillow
+PyYAML
+
+# Bi-LSTM forecasting (Windows native TensorFlow uses CPU)
+tensorflow
+scikit-learn
+
+# Charts, evaluation, and export
+matplotlib
+seaborn
+openpyxl
+tqdm
+
+# Notebook and interactive experiments
+jupyterlab
+ipykernel
+
+# Dashboard App
+streamlit
+plotly

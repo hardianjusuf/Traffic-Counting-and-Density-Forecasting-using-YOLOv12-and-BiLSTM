@@ -1,0 +1,23 @@
+# Virtual Environment
+.venv/
+
+# YOLO Dataset
+/01_Datasets/New_YOLO_Datasets/
+
+# Tools
+.remote-video-preview-cache/
+
+# Model Weights
+*.pt
+*.pth
+
+# Video CCTV
+*.mp4
+
+# all results directory
+/02_Model_Comparison/hasil_train_yolo
+/03_Vehicle_Detection/evaluation
+/03_Vehicle_Detection/runs
+/04_Vehicle_Counting/video_evaluasi
+/05_Traffic_Analysis/bilstm-model
+/05_Traffic_Analysis/percobaan-bi-lstm

@@ -1,0 +1,3 @@
+Arah,Jumlah_Data,LOS_Benar,LOS_Salah,Accuracy,Accuracy (%)
+IN,48,41,7,0.8541666666666666,85.41666666666666
+OUT,48,42,6,0.875,87.5
