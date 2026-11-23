@@ -1,5 +1,3 @@
-[train-yolov12m](https://github.com/hardianjusuf/Traffic-Counting-and-Density-Forecasting-using-YOLOv12-and-BiLSTM/tree/main/03_Vehicle_Detection/runs/train-yolov12m "train-yolov12m")percobaan-train-yolov12n.ipynb
-
 # Estimasi dan Prediksi Kepadatan Lalu Lintas Menggunakan YOLOv12 dan Bi-LSTM
 
 Repository ini berisi implementasi penelitian skripsi mengenai **estimasi dan prediksi kepadatan lalu lintas menggunakan YOLOv12 dan Bidirectional Long Short-Term Memory (Bi-LSTM)** berdasarkan rekaman CCTV.
